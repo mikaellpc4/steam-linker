@@ -5,6 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steam Linker</title>
+  </head>
+  <body>
+    <div id="root"></div>
     <script>
       function getUrlParameter(name) {
         name = name.replace(/[\[\]]/g, '\\$&');
@@ -22,8 +25,5 @@
         document.getElementById('root').innerHTML = '<h1>No URL parameter provided</h1><p>Usage: ?url=steam://yourlink</p>';
       }
     </script>
-  </head>
-  <body>
-    <div id="root"></div>
   </body>
 </html>
